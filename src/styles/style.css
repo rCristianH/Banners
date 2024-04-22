@@ -67,17 +67,16 @@
   padding: 14px 0px;
   font-size: 2rem;
   font-weight: 300;
-  
 }
 .link-item--a {
   border-radius: 100px;
-
+  text-decoration: none;
   display: inline-block;
   font-size: 2rem;
   color: black;
   padding: 0;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3),
-  0px 5px 10px 7px rgba(0, 0, 0, 0.15);
+    0px 5px 10px 7px rgba(0, 0, 0, 0.15);
 }
 .link-item--a-1 {
   background-image: url("https://raw.githubusercontent.com/rCristianH/myBlog/master/assets/imgs/1.webp");
