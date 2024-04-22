@@ -14,16 +14,32 @@ const ht = h("header.header", [
   ),
   h("h2.header--title", [
     h("span.header--title--name", "Cristian Ramirez"),
-    h("span.header--title--career", "Software Developer"),
+    h("span.header--title--career", "Software Developer in Crlabs."),
   ]),
 ]);
 
 const main = h("main.main-content", [
   h("ul.main-content--links", [
-    h("li.main-content--link-item", h("a.link-item--a", { href: "/" }), "one"),
-    h("li.main-content--link-item", "two"),
-    h("li.main-content--link-item", "three"),
-    h("li.main-content--link-item", "four"),
+    h("a.link-item--a a.link-item--a-1", [
+      h(
+        "li.main-content--link-item", "Demo"
+      ),{ href: "https://rcristianh.github.io/AccountAssistant/" }
+    ]),
+    h("a.link-item--a a.link-item--a-2", [
+      h(
+        "li.main-content--link-item", "Blog"
+      ),{ href: "https://rcristianh.github.io/myBlog/" }
+    ]),
+    h("a.link-item--a a.link-item--a-3", [
+      h(
+        "li.main-content--link-item", "Api"
+      ),{ href: "https://rcristianh.github.io/api-rest-moviedb/" }
+    ]),
+    h("a.link-item--a a.link-item--a-4", [
+      h(
+        "li.main-content--link-item", "ToDo"
+      ),{ href: "https://rcristianh.github.io/ToDo-s/" }
+    ]),
   ]),
 ]);
 
